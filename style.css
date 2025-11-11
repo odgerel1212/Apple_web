@@ -1,94 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.center {
-    margin: 0 auto;
+.Nav-global {
+  width: 100vw;
+  height: 48px;
+  border: 2px solid black;
+  background-color: #f5f5f7cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apple i {
+  height: 19px;
+  width: 16px;
+  color: #000000cc;
+  display: flex;
+  margin-left: 17px;
 }
 
-.flex {
-    display: flex;
+.menu-items {
+  display: flex;
+  gap: 24px;
+  display: none;
+}
+.menu-items p {
+  font-size: 12px;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+.buttons {
+  display: flex;
+  gap: 24px;
+  margin-right: 15px;
+}
+.search {
+  height: 16px;
+  width: 16px;
+  color: #000000cc;
 }
 
-.justify_center {
-    justify-content: center;
+.bag {
+  height: 17px;
+  width: 15px;
+  color: #000000cc;
+}
+.menu {
+  color: #000000cc;
+  height: 18px;
+  width: 18px;
+}
+.container1 {
+  height: 73px;
+  width: 100vw;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  margin-bottom: 12px;
+}
+.container1 p {
+  font-size: 14px;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #1d1d1f;
+}
+.iPhone16 {
+  height: 500px;
+  /* width: 100vw; */
+  background-image: url(./images/iphone16pro.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: end;
+}
+.pro-letters {
+  border: 2px solid red;
+  height: 62px;
+  width: 241px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pro-letters h1 {
+  font-size: 30px;
+  font-style: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+}
+.pro-letters p {
+  font-size: 16px;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+}
+.bottom-buttons {
+  width: 241px;
+  height: 36px;
+  border: 2px solid blue;
+  display: flex;
+}
+.learn {
+  border-radius: 999px;
+  background-color: #0071e3;
+  height: 36px;
+  width: 107px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn p {
+  font-size: 14px;
+  color: #ffffff;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.buy {
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  height: 36px;
+  width: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.align_center {
-    align-items: center;
+.buy p {
+  font-size: 14px;
+  color: #2997ff;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
-
-.justify_between {
-    justify-content: space-between;
-}
-
-.column {
-    flex-direction: column;
-}
-
-.Nav-Global {
+@media screen and (min-width: 700px) {
+  .container1 {
     height: 48px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     width: 100vw;
-    background-color: #F5F5F7CC;
     border: 2px solid black;
-}
-
-@media screen and (min-width: 1920px) {
-    .Nav-Global {
-        background-color: aqua;
-    }
-}
-
-.Apple-icon,
-.button-search,
-.button-bag,
-.button-menu {
-    height: 48px;
-    width: 49px;
-    border: 2px solid red;
-}
-
-.Apple-icon i {
-    height: 19px;
-    width: 16px;
-    color: #000000CC;
-}
-
-.button-search img {
-    height: 16px;
-    width: 16px;
-    color: #000000CC;
-}
-
-.button-bag img {
-    height: 17.6px;
-    width: 15.12px;
-    color: #000000CC;
-}
-
-.button-menu img {
-    height: 18px;
-    width: 18px;
-    color: #000000;
-}
-
-.Container {
-    height: 73px;
-    width: 100vw;
-    border: 2px solid red;
-    background-color: #FFFFFF;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+  }
+  .iPhone16 {
+    height: 650px;
+    background-image: url(./images/iPhone\ pro16\ tablet.svg);
+  }
+  .pro-letters h1 {
+    font-size: 42px;
+    font-style: semibold;
+    font-weight: 600;
+  }
+  .pro-letters p {
+    font-size: 22px;
     font-style: regular;
-    font-size: 14px;
-    color: #1D1D1F;
-    line-height: 20px;
-    -ms-text-combine-horizontal: center;
-    vertical-align: middle;
-
+    font-weight: 400;
+  }
+  .pro-letters {
+    border: 2px solid red;
+    height: 96px;
+    width: 405px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .menu-items {
+    display: block;
+    display: flex;
+  }
+  .Nav-global {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    justify-content: center;
+    height: 44px;
+  }
+  .container1 {
+    height: 52px;
+    margin: 0;
+    border: 2px solid black;
+  }
+  .iPhone16 {
+    height: 692px;
+    background-image: url(./images/iPhone\ pro16\ desktop.svg);
+  }
+  .pro-letters h1 {
+    font-size: 52px;
+    font-style: semibold;
+    font-weight: 600;
+  }
+  .pro-letters p {
+    font-size: 24px;
+    font-style: regular;
+    font-weight: 400;
+  }
+  .pro-letters {
+    border: 2px solid red;
+    height: 108px;
+    width: 405px;
+  }
 }
