@@ -260,7 +260,7 @@
   justify-content: center;
   align-items: center;
   justify-content: start;
-  margin-bottom: 12px;
+  margin-bottom: 36px;
 }
 .Gift {
   display: none;
@@ -335,7 +335,190 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+.earphone {
+  background-image: url(./images/earphone\ mobile.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: end;
+  margin-bottom: 12px;
+}
+.Ear-letters {
+  height: 200px;
+  width: 241px;
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ear-letters {
+  height: 130px;
+  width: 241px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.ear-letters h1 {
+  font-size: 30px;
+  font-style: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #f5f5f7;
+}
+.ear-letters p {
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #f5f5f7;
+}
+.bottom-buttons4 {
+  width: 390px;
+  height: 36px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.learn4 {
+  border-radius: 999px;
+  background-color: #0071e3;
+  height: 36px;
+  width: 107px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn4 p {
+  font-size: 14px;
+  color: #ffffff;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.buy4 {
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  height: 36px;
+  width: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.buy4 p {
+  font-size: 14px;
+  color: #2997ff;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.Watch {
+  height: 500px;
+  background-image: url(./images/watch\ for\ mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: start;
+}
+.Watch-letters {
+  height: 135px;
+  width: 235px;
+  margin-top: 46px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+}
+.apple2_watch {
+  height: 34px;
+  width: 152px;
+  display: flex;
+  gap: 7px;
+}
+.apple2_watch img {
+  /* border: 1px solid red; */
+  margin-bottom: 7px;
+  height: 27px;
+  width: 22px;
+}
+.apple2_watch h1 {
+  font-family: "Inter" sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 100%;
+  margin-bottom: 4px;
+}
+.series {
+  font-family: "Inter" sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.classic {
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+}
+.bottom-buttons5 {
+  width: 390px;
+  height: 36px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.learn5 {
+  border-radius: 999px;
+  background-color: #0071e3;
+  height: 36px;
+  width: 107px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn5 p {
+  font-size: 14px;
+  color: #ffffff;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.buy5 {
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  height: 36px;
+  width: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy5 p {
+  font-size: 14px;
+  color: #2997ff;
+  font-style: regular;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
 @media screen and (min-width: 700px) {
   .container1 {
     height: 48px;
@@ -442,7 +625,49 @@
   .iPad {
     height: 768px;
     /* width: 100vw; */
-    background-image: url(./images/iPad-air\ mobile.jpg);
+    background-image: url(./images/iPad-air\ tablet.jpg);
+    margin-bottom: 12px;
+  }
+  .bottom-buttons3 {
+    width: 207px;
+    height: 44px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  .learn3 {
+    border-radius: 999px;
+    background-color: #0071e3;
+    height: 44px;
+    width: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .learn3 p {
+    font-size: 16px;
+    color: #ffffff;
+    font-style: regular;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  .buy3 {
+    border-radius: 999px;
+    border: 1px solid #2997ff;
+    height: 44px;
+    width: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buy3 p {
+    font-size: 16px;
+    color: #2997ff;
+    font-style: regular;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 900px) {
