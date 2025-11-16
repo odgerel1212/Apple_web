@@ -9,12 +9,14 @@
 .Nav-global {
   width: 100vw;
   height: 48px;
-  border: 2px solid black;
   background-color: #f5f5f7cc;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
+
 .apple i {
   height: 19px;
   width: 16px;
@@ -28,6 +30,7 @@
   gap: 24px;
   display: none;
 }
+
 .menu-items p {
   font-size: 12px;
   font-style: regular;
@@ -35,11 +38,13 @@
   font-weight: 400;
   color: #000000;
 }
+
 .buttons {
   display: flex;
   gap: 24px;
   margin-right: 15px;
 }
+
 .search {
   height: 16px;
   width: 16px;
@@ -51,28 +56,31 @@
   width: 15px;
   color: #000000cc;
 }
+
 .menu {
   color: #000000cc;
   height: 18px;
   width: 18px;
 }
+
 .container1 {
   height: 73px;
   width: 100vw;
-  border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  margin-bottom: 12px;
 }
+
 .container1 p {
   font-size: 14px;
   font-style: regular;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #1d1d1f;
+  text-align: center;
 }
+
 .iPhone16 {
   height: 500px;
   /* width: 100vw; */
@@ -85,6 +93,7 @@
   align-items: center;
   justify-content: end;
 }
+
 .Pro_Letters {
   height: 114px;
   width: 241px;
@@ -92,8 +101,8 @@
   flex-direction: column;
   margin-bottom: 36px;
 }
+
 .pro-letters {
-  /* border: 2px solid red; */
   height: 62px;
   width: 241px;
   display: flex;
@@ -101,6 +110,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .pro-letters h1 {
   font-size: 30px;
   font-style: bold;
@@ -110,6 +120,7 @@
   display: flex;
   justify-content: center;
 }
+
 .pro-letters p {
   font-size: 16px;
   font-style: regular;
@@ -119,6 +130,7 @@
   display: flex;
   justify-content: center;
 }
+
 .bottom-buttons {
   width: 241px;
   height: 36px;
@@ -127,6 +139,7 @@
   margin-left: 28px;
   gap: 12px;
 }
+
 .learn {
   border-radius: 999px;
   background-color: #0071e3;
@@ -136,6 +149,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn p {
   font-size: 14px;
   color: #ffffff;
@@ -143,6 +157,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .buy {
   border-radius: 999px;
   border: 1px solid #2997ff;
@@ -175,6 +190,7 @@
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
 .Pro_Letters2 {
   height: 114px;
   width: 241px;
@@ -182,6 +198,7 @@
   flex-direction: column;
   margin-top: 36px;
 }
+
 .pro-letters2 {
   /* border: 2px solid red; */
   height: 62px;
@@ -191,6 +208,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .pro-letters2 h1 {
   font-size: 30px;
   font-style: bold;
@@ -198,6 +216,7 @@
   font-weight: 700;
   color: #f5f5f7;
 }
+
 .pro-letters2 p {
   font-size: 16px;
   font-style: regular;
@@ -207,6 +226,7 @@
   display: flex;
   justify-content: center;
 }
+
 .bottom-buttons2 {
   width: 241px;
   height: 36px;
@@ -215,6 +235,7 @@
   margin-left: 28px;
   gap: 12px;
 }
+
 .learn2 {
   border-radius: 999px;
   background-color: #ffffff;
@@ -224,6 +245,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn2 p {
   font-size: 14px;
   color: #000000;
@@ -232,6 +254,7 @@
   font-weight: 400;
   line-height: 20px;
 }
+
 .buy2 {
   border-radius: 999px;
   border: 1px solid #ffffff;
@@ -249,6 +272,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .iPad {
   height: 500px;
   /* width: 100vw; */
@@ -260,11 +284,15 @@
   justify-content: center;
   align-items: center;
   justify-content: start;
-  margin-bottom: 12px;
+  margin-bottom: 34px;
+  justify-content: space-between;
+
 }
+
 .Gift {
   display: none;
 }
+
 .iPad-letters {
   width: 390px;
   height: 133px;
@@ -274,26 +302,29 @@
   flex-direction: column;
   margin-top: 36px;
 }
+
 .Air {
   width: 180px;
   height: 41.8px;
-  border: 2px solid red;
   margin-bottom: 8px;
 }
+
 .All {
   height: 81.8px;
   width: 390px;
-  margin-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
+
 .All p {
   font-family: Inter;
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
 }
+
 .bottom-buttons3 {
   width: 390px;
   height: 36px;
@@ -302,6 +333,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn3 {
   border-radius: 999px;
   background-color: #0071e3;
@@ -311,6 +343,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn3 p {
   font-size: 14px;
   color: #ffffff;
@@ -318,6 +351,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .buy3 {
   border-radius: 999px;
   border: 1px solid #2997ff;
@@ -335,8 +369,30 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
+.HELLO {
+  margin-bottom: 36px;
+
+}
+
+.HELLO p {
+  font-family: "Inter" sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  background-image:
+    linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+  background-clip: text;
+  color: transparent;
+
+}
+
 .earphone {
-  background-image: url(./images/earphone\ mobile.jpg);
+  background-image: url(./images/earphone\ for\ miobile.png);
   height: 500px;
   background-position: center;
   background-size: cover;
@@ -347,6 +403,7 @@
   justify-content: end;
   margin-bottom: 12px;
 }
+
 .Ear-letters {
   height: 200px;
   width: 241px;
@@ -356,6 +413,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .ear-letters {
   height: 130px;
   width: 241px;
@@ -365,6 +423,7 @@
   gap: 16px;
   margin-bottom: 20px;
 }
+
 .ear-letters h1 {
   font-size: 30px;
   font-style: bold;
@@ -372,6 +431,7 @@
   font-weight: 700;
   color: #f5f5f7;
 }
+
 .ear-letters p {
   font-size: 18px;
   font-style: normal;
@@ -379,6 +439,7 @@
   font-weight: 400;
   color: #f5f5f7;
 }
+
 .bottom-buttons4 {
   width: 390px;
   height: 36px;
@@ -387,6 +448,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn4 {
   border-radius: 999px;
   background-color: #0071e3;
@@ -396,6 +458,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn4 p {
   font-size: 14px;
   color: #ffffff;
@@ -403,6 +466,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .buy4 {
   border-radius: 999px;
   border: 1px solid #2997ff;
@@ -420,6 +484,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .Watch {
   height: 500px;
   background-image: url(./images/watch\ for\ mobile.jpg);
@@ -431,6 +496,7 @@
   align-items: start;
   margin-bottom: 12px;
 }
+
 .Watch-letters {
   height: 135px;
   width: 235px;
@@ -441,18 +507,21 @@
   align-items: center;
   justify-content: start;
 }
+
 .apple2_watch {
   height: 34px;
   width: 152px;
   display: flex;
   gap: 7px;
 }
+
 .apple2_watch img {
   /* border: 1px solid red; */
   margin-bottom: 7px;
   height: 27px;
   width: 22px;
 }
+
 .apple2_watch h1 {
   font-family: "Inter" sans-serif;
   font-weight: 700;
@@ -461,6 +530,7 @@
   line-height: 100%;
   margin-bottom: 4px;
 }
+
 .series {
   font-family: "Inter" sans-serif;
   font-weight: 700;
@@ -470,12 +540,14 @@
   margin-bottom: 4px;
   margin-top: 4px;
 }
+
 .classic {
   font-family: "Inter" sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
 }
+
 .bottom-buttons5 {
   width: 390px;
   height: 36px;
@@ -485,6 +557,7 @@
   justify-content: center;
   margin-top: 16px;
 }
+
 .learn5 {
   border-radius: 999px;
   background-color: #0071e3;
@@ -494,6 +567,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn5 p {
   font-size: 14px;
   color: #ffffff;
@@ -501,6 +575,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .buy5 {
   border-radius: 999px;
   border: 1px solid #2997ff;
@@ -518,9 +593,11 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .earphone_for_desktop {
   display: none;
 }
+
 .Macbook1 {
   background-image: url(./images/macbook\ for\ mobile.jpg);
   background-position: center;
@@ -537,10 +614,10 @@
 .Mac1-letters {
   height: 63px;
   width: 257px;
-  border: 2px solid red;
   margin-top: 42px;
   margin-bottom: 16px;
 }
+
 .Mac1-letters h1 {
   font-family: "inter" sans-serif;
   font-weight: 700;
@@ -548,7 +625,9 @@
   font-size: 30px;
   text-align: center;
   color: #1d1d1f;
+  margin-bottom: 4px;
 }
+
 .Mac1-letters p {
   font-family: "Inter" sans-serif;
   font-weight: 400;
@@ -557,6 +636,7 @@
   text-align: center;
   color: #1d1d1f;
 }
+
 .bottom-buttons7 {
   width: 257px;
   height: 36px;
@@ -564,8 +644,8 @@
   gap: 12px;
   align-items: center;
   justify-content: center;
-  border: 2px solid green;
 }
+
 .learn7 {
   border-radius: 999px;
   background-color: #0071e3;
@@ -575,6 +655,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn7 p {
   font-size: 14px;
   color: #ffffff;
@@ -582,6 +663,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .buy7 {
   border-radius: 999px;
   border: 1px solid #2997ff;
@@ -599,6 +681,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .Macbook2 {
   background-image: url(./images/macbook2\ for\ mobile.png);
   background-position: center;
@@ -611,13 +694,14 @@
   justify-content: start;
   flex-direction: column;
 }
+
 .Mac2-letters {
   height: 116px;
   width: 257px;
-  border: 2px solid red;
   margin-top: 47px;
   margin-bottom: 16px;
 }
+
 .Mac2-letters h1 {
   font-family: "inter" sans-serif;
   font-weight: 700;
@@ -626,6 +710,7 @@
   text-align: center;
   color: #1d1d1f;
 }
+
 .Mac2-letters p {
   font-family: "Inter" sans-serif;
   font-weight: 400;
@@ -633,7 +718,9 @@
   font-size: 18px;
   text-align: center;
   color: #1d1d1f;
+  margin-top: 4px;
 }
+
 .bottom-buttons8 {
   width: 257px;
   height: 36px;
@@ -641,8 +728,8 @@
   gap: 12px;
   align-items: center;
   justify-content: center;
-  border: 2px solid green;
 }
+
 .learn8 {
   border-radius: 999px;
   background-color: #0071e3;
@@ -652,6 +739,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .learn8 p {
   font-size: 14px;
   color: #ffffff;
@@ -659,35 +747,237 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-.buy8 {
-  border-radius: 999px;
-  border: 1px solid #2997ff;
-  height: 36px;
-  width: 66px;
+
+.carier-deals {
+  background-image: url(./images/carier\ deals\ for\ phone.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 12px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: end;
+}
+
+.Carier-letters_h {
+  height: 36px;
+  width: 314px;
+}
+
+.Carier-letters_h h1 {
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  text-align: center;
+  color: #1d1d1f;
+  margin-bottom: 4px;
+  line-height: 36px;
+}
+
+.Carier-letter_p {
+  height: 60px;
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+}
+
+.Carier-letters_p p {
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.deal {
+  border-radius: 999px;
+  background-color: #0071e3;
+  height: 36px;
+  width: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 16px;
+}
+
+.deal p {
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+.iPhones {
+  background-image: url(./images/iPhones\ for\ mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+}
+
+.iPhones_h {
+  height: 34px;
+  width: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 51px;
+  margin-bottom: 4px;
+}
+
+.iPhones_h img {
+  height: 27px;
+  width: 22px;
+  margin-bottom: 7px;
+}
+
+.iPhones_h h1 {
+  font-family: "inter" sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  text-align: center;
+  line-height: 100%;
+  color: #1d1d1f;
+}
+
+.iPhones_p {
+  height: 40px;
+  width: 285px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.buy8 p {
-  font-size: 14px;
-  color: #2997ff;
-  font-style: regular;
-  font-family: "Inter", sans-serif;
+.iPhones_p p {
+  font-family: "Inter" sans-serif;
   font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
 }
+
+.Get {
+  border-radius: 999px;
+  background-color: #0071e3;
+  height: 36px;
+  width: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 16px;
+}
+
+.Get p {
+  font-family: "Inter" sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+.for_desktop {
+  display: none;
+}
+
+.iPhones_for_desktop {
+  display: none;
+}
+
+.Tabpanel {
+  /* height: 495px; */
+  display: flex;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 16.5px;
+
+}
+
+.Tabpanel__img {
+  width: 274px;
+  height: 495px;
+  scroll-snap-align: center;
+}
+
+.indicator {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 26px;
+
+}
+
+a {
+  background-color: #0000006B;
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+}
+
+.Tabpanel-tab {
+  display: none;
+}
+
+.indicator-tab {
+  display: none;
+}
+
+.Tabpanel-desk {
+  display: none;
+}
+
+.indicator-desk {
+  display: none;
+}
+
 @media screen and (min-width: 700px) {
+
   .container1 {
     height: 48px;
     margin-top: 12px;
     margin-bottom: 12px;
     width: 100vw;
   }
+
   .iPhone16 {
     height: 650px;
     background-image: url(./images/iPhone\ pro16\ tablet.svg);
     justify-content: start;
   }
+
   .Pro_Letters {
     height: 156px;
     width: 405px;
@@ -695,20 +985,24 @@
     flex-direction: column;
     margin-top: 58px;
   }
+
   .pro-letters h1 {
     font-size: 42px;
     font-style: semibold;
     font-weight: 600;
   }
+
   .pro-letters p {
     font-size: 22px;
     font-style: regular;
     font-weight: 400;
   }
+
   .pro-letters {
     height: 96px;
     width: 405px;
   }
+
   .bottom-buttons {
     width: 207px;
     height: 44px;
@@ -717,25 +1011,31 @@
     margin-left: 99px;
     gap: 16px;
   }
+
   .learn {
     height: 44px;
     width: 123px;
   }
+
   .buy {
     height: 44px;
     width: 68px;
   }
+
   .learn p {
     font-size: 16px;
   }
+
   .buy p {
     font-size: 16px;
   }
+
   .iPhone-blue {
     height: 650px;
     background-image: url(./images/iPhinepro16_blue\ tablet.jpg);
     justify-content: start;
   }
+
   .Pro_Letters2 {
     height: 156px;
     width: 405px;
@@ -743,20 +1043,24 @@
     flex-direction: column;
     margin-top: 58px;
   }
+
   .pro-letters2 h1 {
     font-size: 42px;
     font-style: semibold;
     font-weight: 600;
   }
+
   .pro-letters2 p {
     font-size: 22px;
     font-style: regular;
     font-weight: 400;
   }
+
   .pro-letters2 {
     height: 96px;
     width: 405px;
   }
+
   .bottom-buttons2 {
     width: 207px;
     height: 44px;
@@ -765,29 +1069,42 @@
     margin-left: 99px;
     gap: 16px;
   }
+
   .learn2 {
     height: 44px;
     width: 123px;
   }
+
   .buy2 {
     height: 44px;
     width: 68px;
   }
+
   .learn2 p {
     font-size: 16px;
   }
+
   .buy2 p {
     font-size: 16px;
   }
+
   .iPad {
     height: 768px;
     /* width: 100vw; */
     background-image: url(./images/iPad-air\ tablet.jpg);
     margin-bottom: 12px;
   }
+
+  .iPad-letters {
+    margin-top: 78px;
+  }
+
   .All p {
     font-size: 22px;
+    margin-top: 8px;
+    line-height: 32px;
   }
+
   .bottom-buttons3 {
     width: 207px;
     height: 44px;
@@ -796,6 +1113,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .learn3 {
     border-radius: 999px;
     background-color: #0071e3;
@@ -805,13 +1123,16 @@
     align-items: center;
     justify-content: center;
   }
+
   .learn3 p {
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
     font-style: regular;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    line-height: 20px;
   }
+
   .buy3 {
     border-radius: 999px;
     border: 1px solid #2997ff;
@@ -823,49 +1144,202 @@
   }
 
   .buy3 p {
-    font-size: 16px;
+    font-size: 18px;
     color: #2997ff;
     font-style: regular;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.37px;
   }
+
+  .HELLO {
+    margin-bottom: 62px;
+
+  }
+
+  .HELLO p {
+    font-family: "Inter" sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-image:
+      linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+    background-clip: text;
+    color: transparent;
+
+  }
+
   .earphone {
+    background-image: url(./images/earphone\ for\ tablet.jpg);
     height: 490px;
   }
+
   .Watch {
+    background-image: url(./images/watch\ for\ tablete.jpg);
     height: 490px;
   }
+
   .Macbook2 {
     height: 490px;
   }
+
+  .Macbook1 {
+    height: 490px;
+  }
+
   .for-tablet {
     display: grid;
-    height: 490px;
     grid-template-columns: 50% 50%;
     grid-gap: 12px;
+    padding-right: 24px;
     padding-left: 12px;
-    padding-right: 12px;
-    border: 2px solid red;
+
   }
 
   .earphone_for_desktop {
     display: none;
   }
+
   .both_for_tablet {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 12px;
+    padding-right: 24px;
     padding-left: 12px;
-    padding-right: 12px;
-    margin-top: 12px;
+  }
+
+  .carier-deals {
+    height: 490px;
+  }
+
+  .iPhones {
+    height: 490px;
+  }
+
+  .iPhones-for-tablet {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 12px;
+    padding-right: 24px;
+    padding-left: 12px;
+  }
+
+  .for_desktop {
+    display: none;
+  }
+
+  .iPhones_for_desktop {
+    display: none;
+  }
+
+  .Tabpanel,
+  .indicator {
+    display: none;
+  }
+
+  .Tabpanel-tab {
+    height: 368px;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 16px;
+  }
+
+  .Tab {
+    background-image: url(./images/tabpanel2\ for\ tablet.jpg);
+    height: 368px;
+    min-width: 654px;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: end;
+
+  }
+
+  .Tab p1 {
+    background-color: #F5F5F7;
+    width: 108px;
+    height: 38px;
+    border-radius: 980px;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin: 0 18px 27px 30px;
+  }
+
+  .Tab p {
+    height: 40px;
+    width: 350px;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+  }
+
+  .width {
+    font-weight: 700px;
+    font-style: bold;
+
+  }
+
+  .Tabpanel-tab img {
+    height: 368px;
+    scroll-snap-align: start;
     border: 2px solid black;
   }
+
+  .indicator-tab {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0 12px 0;
+
+  }
+
+  a {
+    background-color: #0000006B;
+    height: 8px;
+    width: 8px;
+    border-radius: 100px;
+  }
+
+  .Tabpanel-desk {
+    display: none;
+  }
+
+  .indicator-desk {
+    display: none;
+  }
 }
+
 @media screen and (min-width: 900px) {
   .menu-items {
     display: block;
     display: flex;
   }
+
   .Nav-global {
     display: flex;
     gap: 24px;
@@ -873,15 +1347,18 @@
     justify-content: center;
     height: 44px;
   }
+
   .container1 {
     height: 52px;
     margin: 0;
     border: 2px solid black;
   }
+
   .iPhone16 {
     height: 692px;
     background-image: url(./images/iPhone\ pro16\ desktop.svg);
   }
+
   .Pro_Letters {
     height: 172px;
     width: 405px;
@@ -889,20 +1366,24 @@
     flex-direction: column;
     margin-top: 55px;
   }
+
   .pro-letters h1 {
     font-size: 52px;
     font-style: semibold;
     font-weight: 600;
   }
+
   .pro-letters p {
     font-size: 24px;
     font-style: regular;
     font-weight: 400;
   }
+
   .pro-letters {
     height: 108px;
     width: 405px;
   }
+
   .bottom-buttons {
     width: 207px;
     height: 44px;
@@ -911,18 +1392,22 @@
     margin-left: 99px;
     gap: 16px;
   }
+
   .learn {
     height: 44px;
     width: 123px;
   }
+
   .buy {
     height: 44px;
     width: 68px;
   }
+
   .iPhone-blue {
     height: 692px;
     background-image: url(./images/IPhonepro16_blue-desktop.jpg);
   }
+
   .Pro_Letters2 {
     height: 172px;
     width: 405px;
@@ -930,20 +1415,24 @@
     flex-direction: column;
     margin-top: 55px;
   }
+
   .pro-letters2 h1 {
     font-size: 52px;
     font-style: semibold;
     font-weight: 600;
   }
+
   .pro-letters2 p {
     font-size: 24px;
     font-style: regular;
     font-weight: 400;
   }
+
   .pro-letters2 {
     height: 108px;
     width: 405px;
   }
+
   .bottom-buttons2 {
     width: 207px;
     height: 44px;
@@ -952,14 +1441,17 @@
     margin-left: 99px;
     gap: 16px;
   }
+
   .learn2 {
     height: 44px;
     width: 123px;
   }
+
   .buy2 {
     height: 44px;
     width: 68px;
   }
+
   .Gift {
     background-image: url(./images/gift\ for\ desktop.jpg);
     height: 692px;
@@ -971,6 +1463,7 @@
     justify-content: center;
     align-items: end;
   }
+
   .gift-letters {
     height: 164px;
     width: 405px;
@@ -980,12 +1473,14 @@
     justify-content: center;
     margin-bottom: 84px;
   }
+
   .gift_magic {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 12px;
   }
+
   .gift_magic h1 {
     font-size: 52px;
     font-style: semibold;
@@ -993,12 +1488,14 @@
     font-weight: 600;
     color: #000000;
   }
+
   .true {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 16px;
   }
+
   .true p {
     font-size: 24px;
     font-style: regular;
@@ -1006,6 +1503,7 @@
     font-weight: 400;
     color: #000000;
   }
+
   .shop {
     height: 44px;
     width: 114px;
@@ -1015,6 +1513,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .shop p {
     font-size: 16px;
     font-style: regular;
@@ -1022,18 +1521,29 @@
     font-weight: 400;
     color: #ffffff;
   }
+
   .iPad {
     height: 580px;
     /* width: 100vw; */
     background-image: url(./images/iPad-air\ desktop.jpg);
     margin-bottom: 12px;
   }
+
+  .iPad-letters {
+    margin-top: 50px;
+  }
+
+  .bottom-buttons3 {
+    gap: 16px;
+  }
+
   .for-desktop {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 12px;
     margin: 12px 12px 0 12px;
   }
+
   .earphone_for_desktop {
     background-image: url(./images/earphone\ for\ desktop.jpg);
     background-position: center;
@@ -1046,6 +1556,7 @@
     align-items: center;
     align-items: end;
   }
+
   .Ear-letters6 {
     height: 200px;
     width: 241px;
@@ -1056,6 +1567,7 @@
     justify-content: center;
     justify-content: end;
   }
+
   .ear-letters6 {
     height: 71px;
     width: 370px;
@@ -1065,6 +1577,7 @@
     gap: 2px;
     margin-bottom: 10px;
   }
+
   .ear-letters6 h1 {
     font-size: 36px;
     font-style: bold;
@@ -1072,6 +1585,7 @@
     font-weight: 600;
     color: #f5f5f7;
   }
+
   .ear-letters6 p {
     font-size: 18px;
     font-style: normal;
@@ -1079,6 +1593,7 @@
     font-weight: 400;
     color: #f5f5f7;
   }
+
   .bottom-buttons6 {
     width: 390px;
     height: 36px;
@@ -1087,6 +1602,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .learn6 {
     border-radius: 999px;
     background-color: #0071e3;
@@ -1096,6 +1612,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .learn6 p {
     font-size: 16px;
     color: #ffffff;
@@ -1103,6 +1620,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
   }
+
   .buy6 {
     border-radius: 999px;
     border: 1px solid #2997ff;
@@ -1124,4 +1642,471 @@
   .for-tablet {
     display: none;
   }
+
+  .watch-for-desktop {
+    background-image: url(./images/watch\ fro\ desktop.jpg);
+    height: 580px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 12px;
+  }
+
+  .Watch-desk-letters {
+    height: 146px;
+    width: 322px;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .apple3_watch {
+    height: 61px;
+    width: 152px;
+    display: flex;
+    gap: 7px;
+  }
+
+  .apple3_watch img {
+    /* border: 1px solid red; */
+    margin-bottom: 7px;
+    height: 32px;
+    width: 22px;
+  }
+
+  .apple3_watch h1 {
+    font-family: "Inter" sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 4px;
+  }
+
+  .series2 {
+    font-family: "Inter" sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+
+  .classic2 {
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+  }
+
+  .bottom-buttons9 {
+    width: 390px;
+    height: 36px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .learn9 {
+    border-radius: 999px;
+    background-color: #0071e3;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .learn9 p {
+    font-size: 16px;
+    color: #ffffff;
+    font-style: regular;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+
+  .buy9 {
+    border-radius: 999px;
+    border: 1px solid #2997ff;
+    height: 40px;
+    width: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buy9 p {
+    font-size: 16px;
+    color: #2997ff;
+    font-style: regular;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+
+  .both_for_tablet {
+    display: none;
+  }
+
+  .for_desktop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .Macbook1 {
+    height: 580px;
+    margin-left: 12px;
+  }
+
+  .Mac1-letters {
+    height: 71px;
+    width: 370px;
+    margin-top: 48px;
+    margin-bottom: 10px;
+  }
+
+  .Mac1-letters h1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 2px;
+  }
+
+
+  .bottom-buttons7 {
+    width: 199px;
+    height: 40px;
+    gap: 16px;
+  }
+
+  .learn7 {
+    height: 36px;
+    width: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .learn7 p {
+    font-size: 16px;
+  }
+
+  .buy7 {
+    border-radius: 999px;
+    border: 1px solid #2997ff;
+    height: 36px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buy7 p {
+    font-size: 16px;
+  }
+
+  .iPhones-for-tablet {
+    display: none;
+  }
+
+  .iPhones {
+    background-image: url(./images/iPhones\ for\ mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .iPhones_h {
+    height: 39px;
+    width: 322px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 58.42px;
+    margin-bottom: 4px;
+  }
+
+  .iPhones_h img {
+    height: 27px;
+    width: 22px;
+    margin-bottom: 7px;
+  }
+
+  .iPhones_h h1 {
+    font-family: "inter" sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100%;
+    color: #1d1d1f;
+  }
+
+  .iPhones_p {
+    height: 40px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iPhones_p p {
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .Get {
+    border-radius: 999px;
+    background-color: #0071e3;
+    height: 40px;
+    width: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 47px;
+    margin-top: 16px;
+  }
+
+  .Get p {
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+  }
+
+  .card {
+    background-image: url(./images/card\ for\ desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    margin-left: 12px;
+
+  }
+
+  .card_h {
+    height: 39px;
+    width: 322px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 58px;
+    margin-bottom: 4px;
+  }
+
+  .card_h img {
+    height: 27px;
+    width: 22px;
+    margin-bottom: 7px;
+  }
+
+  .card_h h1 {
+    font-family: "inter" sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100%;
+    color: #1d1d1f;
+  }
+
+  .card_p {
+    height: 40px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_p p {
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .bottom-buttons10 {
+    width: 390px;
+    height: 36px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .learn10 {
+    border-radius: 999px;
+    background-color: #0071e3;
+    height: 40px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .learn10 p {
+    font-size: 16px;
+    color: #ffffff;
+    font-style: regular;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+
+  .buy10 {
+    border-radius: 999px;
+    border: 1px solid #2997ff;
+    height: 40px;
+    width: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buy10 p {
+    font-size: 16px;
+    color: #2997ff;
+    font-style: regular;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+
+  .iPhones_for_desktop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 12px;
+    margin-right: 12px;
+
+  }
+
+  .Tabpanel-tab {
+    display: none;
+  }
+
+  .indicator-tab {
+    display: none;
+  }
+
+  .Tabpanel-desk {
+    height: 668px;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 16px;
+  }
+
+  .Tab {
+    background-image: url(./images/tab\ for\ desk1.jpg);
+    height: 668px;
+    min-width: 1187px;
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: end;
+
+  }
+
+  .Tab p1 {
+    background-color: #F5F5F7;
+    width: 133px;
+    height: 44px;
+    border-radius: 980px;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin: 0 20px 78px 70px;
+  }
+
+  .Tab p {
+    height: 40px;
+    width: 350px;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-bottom: 68px;
+  }
+
+  .width {
+    font-weight: 700px;
+    font-style: bold;
+
+  }
+
+  .Tabpanel-desk img {
+    height: 668px;
+    scroll-snap-align: center;
+    border: 2px solid black;
+  }
+
+  .indicator-desk {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0 12px 0;
+
+  }
+
+  a {
+    background-color: #0000006B;
+    height: 8px;
+    width: 8px;
+    border-radius: 100px;
+  }
+
 }
